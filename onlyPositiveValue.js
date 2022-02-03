@@ -4,7 +4,10 @@ onlyPositive = (numbers) => {
         if(positiveValue < 0){
             break;
         }
-        positveNumber.push(positiveValue);
+        else{
+            positveNumber.push(positiveValue);
+        }
+        
     }
     return positveNumber;
 }
